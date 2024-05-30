@@ -1,0 +1,23 @@
+#title {
+  text-align: center;
+}
+
+#plot-options {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: auto;
+  padding: 30px;
+  width: 50%;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+#chart {
+  margin: auto;
+  width: 800px;
+}
+
+#table-container {
+  margin: auto;
+}

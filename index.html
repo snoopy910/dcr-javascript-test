@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dava Visualization</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+  </head>
+  <body>
+    <div id="title">
+      <h1>Data Visualization for countries and regions</h1>
+    </div>
+    <form id="plot-options">
+      <div id="group-options">
+        <input
+          type="radio"
+          id="plot-by-country"
+          name="group-option"
+          value="country"
+        />
+        <label for="plot-by-country">Country</label>
+        <input
+          type="radio"
+          id="plot-by-region"
+          name="group-option"
+          value="region"
+        />
+        <label for="plot-by-region">Region</label>
+      </div>
+      <div id="select-option"></div>
+      </div>
+    </form>
+    <div id="chart"></div>
+    <div id="table-container">
+      <table id="data-table">
+          <thead>
+              <tr></tr> 
+          </thead>
+          <tbody>
+          </tbody>
+      </table>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
